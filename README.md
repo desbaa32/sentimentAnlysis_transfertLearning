@@ -39,10 +39,4 @@ from my_utils import getModel, getTransfertModel
 transfer_model = getTransfertModel(getModel())
 ```
 
-## Structure du projet
-- `my_utils.py` - fonctions utilitaires de prétraitement et modélisation
-- Modèles pré-entraînés (3 classes et 7 classes)
-- Données de tweets à classifier
 
-## Résultats
-Le modèle atteint des performances significatives dans la classification fine des sentiments, démontrant l'efficacité de l'approche par transfert learning.
